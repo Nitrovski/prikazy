@@ -6,6 +6,8 @@ Uzitecne prikazy
 /sas/sashome/
 
 ./install.sh "/sas/sashome"
+# Unzip in linux
+unzip filename.zip
 
 # zapnutí nebo vypnutí služeb
 
