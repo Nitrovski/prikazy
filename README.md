@@ -1,0 +1,2 @@
+# prikazy
+Uzitecne prikazy
