@@ -23,6 +23,9 @@ unzip filename.zip
 
 /sas/sashome/InstallMisc/InstallLogs/DeploymentRegistry.txt+ - 
 
+# Vypsani procesu v linuxu ve spojitosti se sas
+ps aux | grep sas
+
 # Vygeneruje nové DeploymentRegistry.txt 
 
 cd /sas/sashome/deploymntreg/
