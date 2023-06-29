@@ -26,6 +26,9 @@ unzip filename.zip
 # Vypsani procesu v linuxu ve spojitosti se sas
 ps aux | grep sas
 
+# crontab
+crontab -l (vypise crontab joby)
+
 # Vygeneruje nové DeploymentRegistry.txt 
 
 cd /sas/sashome/deploymntreg/
@@ -51,19 +54,19 @@ přejmenování textu v datech
 
 # Jak spouštět SAS 9.4 služby ve správném pořadí
 
-Začít na 01 serveru meta data
+Začít na 01
 
 1: 
 /sas/sasconfig/Lev1/sas.servers.pre start / status / stop
-
 2:
 Zapnout SAS Metadata Server
+/sas/sasconfig/Lev1/SASMeta/MetadataServer/MetadataServer.sh start
 a pak 
 /sas/sasconfig/Lev1/sas.servers.mid start
 
 teď se dají zapnout 02 a 03 servery a pak už 
 
 3:
-/sas/sasconfig/Lev1/sas.servers.mid start
+/sas/sasconfig/Lev1/sas.servers start
 
 # V případě že neprojde Redeploy web app, tak zkusit pročistit cache a logy - udělat pak redeploy znovu
