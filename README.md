@@ -34,6 +34,9 @@ crontab -l (vypise crontab joby)
 cd /sas/sashome/deploymntreg/
 java -jar sas.tools.viewregistry.jar
 
+# stažení SAS94_HFADD_data.xml
+
+curl https://tshf.sas.com/techsup/download/hotfix/HF2/util01/SASHotFixDLM/data/SAS94_HFADD_data.xml -o SAS94_HFADD_data.xml
 
 # Zkopírování dat z jednoho serveru na druhý
 scp sas-security-update-2023-03-M7.zip sas@sas01prod.id.prod:/sas/sashome/InstallMisc/HotFixes/SecurityUpdates/
