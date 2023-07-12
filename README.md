@@ -17,6 +17,10 @@ unzip filename.zip
 
 /sas/sasconfig/Lev1/SASMeta/MetadataServer/MetadataServer.sh start
 
+# restart konkrétní web app serveru
+
+/sas/sasconfig/Lev1/Web/WebAppServer/SASServer7_1/bin/tcruntime-ctl.sh restart
+
 # Zkontrolovat dokumentaci u hotfixů a zjistit který má možnost Configurace - dá se zjistit v IMPORTANT NOTES v dokumentaci jednotlivých hotfixu
 
 # vypíše produkty co je na serveru nainstalovany
