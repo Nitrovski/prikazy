@@ -36,7 +36,8 @@ crontab -l (vypise crontab joby)
 # Vygeneruje nové DeploymentRegistry.txt 
 
 cd /sas/sashome/deploymntreg/
-java -jar sas.tools.viewregistry.jar
+
+/sas/sashome/SASPrivateJavaRuntimeEnvironment/9.4/jre/bin/java -jar sas.tools.viewregistry.jar
 
 # stažení SAS94_HFADD_data.xml
 
