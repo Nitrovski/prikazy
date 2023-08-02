@@ -9,6 +9,9 @@ Uzitecne prikazy
 # Unzip in linux
 unzip filename.zip
 
+# vypsani velikosti souboru v adresari
+du -h /cesta/k/adresari | sort -rh | head -n 10
+
 # zapnutí nebo vypnutí služeb
 
 /sas/sasconfig/Lev1/sas.servers start/stop /status
