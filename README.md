@@ -81,3 +81,6 @@ teď se dají zapnout 02 a 03 servery a pak už
 /sas/sasconfig/Lev1/sas.servers start
 
 # V případě že neprojde Redeploy web app, tak zkusit pročistit cache a logy - udělat pak redeploy znovu
+
+# Vypnutí sync s AD z SAS CM
+na SAS02 v crontab -e jsou vidět aktuální joby, stačí zakomentovat AD a LDAP sync a restartovat služby
