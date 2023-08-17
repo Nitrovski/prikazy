@@ -69,13 +69,15 @@ Začít na 01
 
 1: 
 /sas/sasconfig/Lev1/sas.servers.pre start / status / stop
+
 2:
 Zapnout SAS Metadata Server
 /sas/sasconfig/Lev1/SASMeta/MetadataServer/MetadataServer.sh start
-a pak 
-/sas/sasconfig/Lev1/sas.servers.mid start
 
 teď se dají zapnout 02 a 03 servery a pak už 
+
+a pak 
+/sas/sasconfig/Lev1/sas.servers.mid start
 
 3:
 /sas/sasconfig/Lev1/sas.servers start
