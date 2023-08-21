@@ -9,6 +9,7 @@ Uzitecne prikazy
 
 # tar file a untar
 compress: tar -zcvf sashome.tar.gz /sas/sashome
+
 extrakt: tar -zxvf sashome.tar.gz
 
 # Unzip in linux
