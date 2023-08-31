@@ -7,6 +7,28 @@ Uzitecne prikazy
 
 ./install.sh "/sas/sashome"
 
+# VIM příkazy
+
+Uzitecne prikazy:      vi - edituju soubor,
+
+/ - vyhledavam
+
+esc a shift + ; je prikazova radka
+
+q je ukonceni
+
+w je zapis,
+
+x je kombinace w + q,
+
+shit+ a - konec radku + editace
+
+I je kdyz potrebuju neco dopsat,
+
+x- mazu pri jednoum znaku
+
+dd - mazu cely radek
+
 # tar file a untar
 compress: tar -zcvf sashome.tar.gz /sas/sashome
 
