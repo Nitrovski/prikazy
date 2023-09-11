@@ -37,6 +37,12 @@ extrakt: tar -zxvf sashome.tar.gz
 # Unzip in linux
 unzip filename.zip
 
+# ACL v Linuxu
+setfacl -R -m u:sas:rwx /logs/stp_logs
+
+-R pokud potřebuješ rekurzivně
+tohle to nastaví pro usera "sas"
+
 # vypsani velikosti souboru v adresari
 du -h /cesta/k/adresari | sort -rh | head -n 10
 
