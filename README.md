@@ -56,7 +56,8 @@ du -h /cesta/k/adresari | sort -rh | head -n 10
 
 # restart konkrétní web app serveru
 
-/sas/sasconfig/Lev1/Web/WebAppServer/SASServer7_1/bin/tcruntime-ctl.sh restart
+/sas/sasconfig/Lev1/Web/WebAppServer/SASServer7_1/bin/tcruntime-ctl.sh restart 
+například po update groovy_files JAR soubory jsou s restartem, LogConfig jsou s restartem, změna connections jsou bez restartu web serveru
 
 # Zkontrolovat dokumentaci u hotfixů a zjistit který má možnost Configurace - dá se zjistit v IMPORTANT NOTES v dokumentaci jednotlivých hotfixu
 
@@ -96,6 +97,11 @@ přejmenování textu v datech
 
 # Zjištění verze oracle
  yum list installed | grep instantclient
+
+# LINUX - vypsání logu přímo LIVE do konzole
+
+tail -f /sas/sasconfig/Lev1/Web/WebAppServer/SASServer1_1/logs/server.log
+
 
 # Jak spouštět SAS 9.4 služby ve správném pořadí
 
