@@ -29,6 +29,9 @@ x- mazu pri jednoum znaku
 
 dd - mazu cely radek
 
+# vyhledám daný záznam 
+grep -rnw /sas/ma/env -e "harabbit01"
+
 # tar file a untar
 compress: tar -zcvf sashome.tar.gz /sas/sashome
 
