@@ -28,6 +28,8 @@ I je kdyz potrebuju neco dopsat,
 x- mazu pri jednoum znaku
 
 dd - mazu cely radek
+# Zjistim heslo pro MA_TEMP ze sas02
+"/sas/ma/env/java/JavaObjOraSeq/tool.properties"
 
 # vyhledám daný záznam 
 grep -rnw /sas/ma/env -e "harabbit01"
