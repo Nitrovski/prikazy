@@ -1,3 +1,7 @@
+# Vypnutí a zapnutí RTDM Agenta na VN
+sudo systemctl stop mkt-agent-rtdm.service
+
+
 # prikazy
 Uzitecne prikazy
 
